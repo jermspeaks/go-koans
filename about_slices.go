@@ -19,5 +19,6 @@ func aboutSlices() {
 	pregnancy_slots = append(pregnancy_slots, "another baby!?", "yet another, oh dear!", "they must be Catholic")
 
 	assert(len(pregnancy_slots) == 7) // append() can take N arguments to append to the slice
+	// Capacity: initial capacity + (appended_elements * initial_capaity)
 	assert(cap(pregnancy_slots) == 12) // the capacity optimizations have a guessable algorithm
 }
