@@ -16,6 +16,10 @@ I can't help you out with that last one. Sorry.
 If you want to have `go test` be run in your terminal any time you save a file and
 are using a Mac, take a look at [fswatch](https://github.com/emcrisostomo/fswatch).
 
+```bash
+fswatch . | (while read; do go test; done)
+```
+
 ### Helpful References
 
 Bookmark the [spec](http://golang.org/ref/spec) and the
