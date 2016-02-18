@@ -34,7 +34,7 @@ func TestKoans(t *testing.T) {
 	aboutAnonymousFunctions()
 	aboutVariadicFunctions()
 	aboutFiles()
-	// aboutInterfaces()
+	aboutInterfaces()
 	// aboutCommonInterfaces()
 	// aboutMaps()
 	// aboutPointers()
