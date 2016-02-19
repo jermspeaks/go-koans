@@ -20,7 +20,7 @@ func aboutChannels() {
 		<-ch
 	}()
 
-	assert(len(ch) < 2) // we'll need to make room for the queue, or suffer deadlocks
+	// assert(__delete_me__) // we'll need to make room for the queue, or suffer deadlocks
 
 	ch <- "bar"   // this send will succeed
 	ch <- "quux"  // there's enough room for this send too
