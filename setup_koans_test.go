@@ -42,7 +42,7 @@ func TestKoans(t *testing.T) {
 	aboutAllocation()
 	aboutChannels()
 	aboutConcurrency()
-	// aboutPanics()
+	aboutPanics()
 
 	fmt.Printf("\n%c[32;1mYou won life. Good job.%c[0m\n\n", 27, 27)
 }
